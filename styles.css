@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #3A8FB7;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #2a6592;
+    color: #fff;
+}
+
+.banner {
+    background: url('doctor.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.search-fields input, .search-fields button {
+    padding: 10px;
+    margin: 5px;
+}
+.photo{
+    text-size-adjust: 30px;
+    min-height: 15px;
+    max-width: 60px;
+    color: aqua;
+}
+.statistics
